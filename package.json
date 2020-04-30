@@ -1,5 +1,5 @@
 {
-  "name": "facebook_like",
+  "name": "confinini",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",

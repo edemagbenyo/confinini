@@ -7,7 +7,7 @@
 
 ## Live link
 
-* https://nameless-lowlands-03701.herokuapp.com/
+* https://confinini.herokuapp.com/
 
 ## Built With ✨
 
@@ -39,7 +39,15 @@ You should run
 ## How to contribute and partipate
 Fork this repo and submit a PR for review and potential merge to main branch
 
-
+## How to deploy to heroku
+The following steps were taken from this [article](https://devcenter.heroku.com/articles/getting-started-with-rails6)
+1. Log in to your heroku account and create an app
+2. Make sure you have [heroku cli](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) installed on your machine.
+3. Login into your heroku account from the cli ``` heroku login```
+4. Add heroku git:remote to your local remote with ```  heroku git:remote -a name-of-app ```
+5. Push the master branch of your code to heroku using ``` git push heroku master ```
+6. Spin up a dyno to run the web server with ``` heroku ps:scale web=1 ```
+7. Run a migration of your db on heroku ``` heroku run rake db:migrate ```
 
 ## Authors
 
