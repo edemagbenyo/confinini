@@ -12,6 +12,14 @@
       </ul>
     </div>
   <% end %>
-  <%= f.text_area :body, class: 'post-textarea', placeholder: "What's on your mind?" %>
-  <%= f.submit "Post", class: 'btn btn-primary btn-sm' %>
+  <div class="post-container">
+    <%= f.text_area :body, class: 'post-textarea', placeholder: "What's on your mind?" %>
+    <div class="post-options">
+      <div class="upload">
+      <%= image_tag  "upload.png" %>
+      </div>
+      <input type="file"/>
+    </div>
+  </div>
+  <%= f.submit "Post", class: 'btn btn-primary btn-post' %>
 <% end %>

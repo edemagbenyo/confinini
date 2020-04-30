@@ -1,3 +1,185 @@
 // Place all the styles related to the profile controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+@import "./variables";
+
+@media (min-width: 992px) {
+  nav.navbar {
+    padding: 15px;
+    background-color: $main;
+    justify-content: flex-end;
+    form {
+      width: 50%;
+      display: flex;
+      justify-content: space-between;
+      input {
+        width: 80% !important;
+        border: none;
+      }
+    }
+    .profile {
+      align-self: flex-end;
+    }
+    .navbar-nav {
+      li.nav-item {
+        width: auto;
+        a.nav-link {
+          img {
+            width: 20px !important;
+          }
+        }
+      }
+    }
+    .links {
+      li {
+        color: #ffffff;
+        a {
+          color: white;
+          padding: 0 5px;
+        }
+      }
+    }
+  }
+
+  // Menu
+  .main-content {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 100%;
+    .menu {
+      background-color: #f2f2f5;
+      padding: 20px 0;
+      ul {
+        padding: 0;
+        margin: 0;
+        li {
+          list-style: none;
+          padding: 10px 30px;
+          img {
+            width: 30px;
+            padding: 5px;
+          }
+          a {
+            color: grey;
+          }
+        }
+        li.active {
+          background-color: #F7F8F9;
+          border-left: 3px solid $main;
+          a {
+            color: $main;
+          }
+        }
+      }
+    }
+
+    //feed
+
+    .feed-other {
+      display: flex;
+      padding: 30px;
+      background-color: #F7F8F9;
+      .alert{
+        padding:5px;
+        border:none;
+        text-align: center;
+        border-radius: 0;
+        color:$dark;
+        background-color: $secondary;
+      }
+      .feed-container {
+        width: 70%;
+        flex-direction: column;
+        border-radius: 5px;
+        margin: 10px 0;
+        padding-right: 30px;
+        ul.list-unstyled {
+          margin-top: 10px;
+          li.post-container {
+            border: 1px solid #cccccc;
+            margin: 20px 0;
+            border-radius: 5px;
+            padding: 10px;
+            .post-content {
+              .post-owner {
+                display: flex;
+                img.post-owner-img {
+                  width: 50px;
+                }
+                h5 {
+                  font-size: 1em;
+                  padding: 10px;
+                }
+              }
+              .post-body {
+                padding: 10px 0;
+                font-size: .8em;
+              }
+            }
+          }
+        }
+        
+        p.body {
+          font-size: 0.7em;
+          margin-bottom: 0.5em;
+        }
+        br {
+          border: 4px solid red;
+        }
+        .media-body {
+          width: 100%;
+        }
+        form.post {
+          .post-container {
+            background-color: #ffffff;
+            border: 1px solid #cccccc;
+            border-radius: 3px;
+            display: flex;
+            flex-direction: column;
+            .post-options {
+              border-top: 1px solid #cccccc;
+              padding: 5px;
+              .upload {
+                padding: 0;
+              }
+              img {
+                margin: 0;
+                width: 30px;
+              }
+              input[type="file"] {
+                display: none;
+              }
+            }
+            textarea.post-textarea {
+              width: 100%;
+              height: 20vh;
+              font-size: 1em;
+              border: none;
+              border-radius: 5px;
+              resize: none;
+              padding: 10px;
+            }
+            textarea.post-textarea:focus {
+              outline: none;
+            }
+            textarea.post-textarea:focus {
+              box-shadow: none;
+            }
+          }
+          .btn-post {
+            margin-top: 10px;
+            background-color: $secondary;
+            border: none;
+            color: $dark;
+          }
+        }
+      }
+      .other {
+        width: 30%;
+        padding: 20px;
+        background-color: #FFF;
+      }
+    }
+  }
+}

@@ -1,7 +1,13 @@
-<div class="card about">
-  <img src="..." class="card-img-top" alt="Profile picture of user">
-  <div class="card-body">
-    <h5 class="card-title"><%= current_user.email %></h5>
-    <p class="card-text">About me</p>
-  </div>
+<div class="menu">
+  <ul>
+    <li class="active">
+    <a href="/"><%= image_tag  "newfeed.png" %>Newsfeed</a>
+    </li>
+    <li>
+    <a href="/"><%= image_tag  "message.png" %>Messages</a>
+    </li>
+    <li>
+    <a href="/"><%= image_tag  "market.png" %>Marketplace</a>
+    </li>
+  </ul>
 </div>

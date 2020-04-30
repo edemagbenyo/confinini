@@ -1,13 +1,14 @@
 
-<h4>Feeds</h4>
 <%= render 'posts/new' %>
 <ul class="list-unstyled">
 <% @user_posts.each do |post| %>
-  <li class="media feed">
-    <img src="#" class="mr-3" alt="owner">
-    <div class="media-body">
-      <h5 class="mt-0 mb-1"><%= post.user.email%></h5>
-      <p class="body"><%= post.body %></p>
+  <li class="post-container">
+    <div class="post-content">
+      <div class="post-owner">
+        <img src="assets/user.png" class="post-owner-img" alt="owner">
+        <h5><%= post.user.email%></h5>
+      </div>
+      <p class="post-body"><%= post.body %></p>
         <% if(!current_user.liked_posts.find_by(id: post.id)) %>
           <%= link_to "👍 like", post_like_path(post), method: :post %>
         <% else %>

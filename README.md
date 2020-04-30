@@ -1,6 +1,6 @@
 # Facebook-like application with Ruby on Rails
 
-> This is a Facebook-like application built using Ruby, Ruby on Rails and Bootstrap.
+> This is a Facebook-like application built using Ruby, Ruby on Rails and Bootstrap. The application allows for simple features such as posting, making friends, commenting on friends posts and liking of posts.
 
 ![screenshot](./app_screenshot1.PNG)
 
@@ -46,9 +46,18 @@ Fork this repo and submit a PR for review and potential merge to main branch
 👨‍💻 **Edem Agbenyo**
 
 - Github: [@edemagbenyo](https://github.com/edemagbenyo)
+- Twitter: [Edem Agbenyo](https://twitter.com/edemAgbenyo)
+- LinkedIn: [Edem Agbenyo](https://www.linkedin.com/in/edemagbenyo/)
+- Email : [edem.agbenyo@gmail.com](mailto:edem.agbenyo@gmail.com)
 
 👨‍💻 **Christian Salazar**
 
 - Github: [@grifo89](https://github.com/grifo89)
 - Twitter: [Christian_sm91](https://twitter.com/Christian_sm91)
 - LinkedIn: [Christian Salazar](https://www.linkedin.com/in/christian-salazar-mi%C3%B1o/)
+
+
+## Known issues or improvement
+1. Improve design
+2. Allow users to post images, gifs and videos
+3. Send confirmation email to user upon registration

@@ -1,4 +1,4 @@
-
+@import './variables';
 .app {
   background-color: #f0f0f0;
 }
@@ -8,14 +8,28 @@
     padding: 0;
   }
 }
+.main{
+  height: 100vh;
+}
 .welcome-img{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: $main;
   img{
-    height: 100vh;
+    width: 100%;
+  }
+  h2{
+    text-align: center;
+    color: #FFFFFF;
   }
 }
 .login{
-  height: 100vh;
   background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   &>div{
     padding:20px;
     form{
@@ -25,56 +39,59 @@
         border: none;
         border-left: 4px solid #BBB6B5;
         padding-left: 10px;
+        font-size: 1.2em;
       }
       input[type=submit]{
-        background: #FF5733;
+        background: $main;
         border:none;
         color: white;
         font-size: 1.2em;
       }
+     
     }
   }
   a{
-    color: #FF5733;
+    color: $main;
     font-size: 1.2em;
     text-decoration: underline;
   }
+  h3{
+    text-align: center;
+    font-size: 1.5em;
+    padding:10px;
+  }
+  .alert{
+    padding:5px;
+    border:none;
+    background: none;
+    text-align: center;
+    border-radius: 0;
+  }
+  .alert-danger{
+    color:$dark;
+    background-color: $secondary;
+  }
 }
 
-form.post{
-  .post-textarea{
-    width: 100%;
-    height: 15vh;
-    font-size: 12px;
-    border:1px solid #cccccc;
-    border-radius: 5px;
-  }
-  .post-textarea:focus{
-    box-shadow: none;
-  }
-}
-
-.feed{
-  flex-direction: column;
-  border:1px solid #cccccc;
-  border-radius: 5px;
-  margin: 10px 0;
-  background: #FFFFFF;
+#error_explanation{
+  color:white;
   padding: 10px;
-  h5{
-    font-size: .8em;
+  h2{
+    font-size: 1.2em;
   }
-  p.body{
-    font-size: .7em;
-    margin-bottom: .5em;
+  li{
+    color: $dark;
   }
-  br{
-    border:4px solid red;
-  }
-  .media-body{
-    width: 100%;
-  }
+  background-color: $secondary;
 }
+
+ul.navbar-nav li.nav-item .dropdown-menu{
+  border-radius: 0 !important;
+  margin-top:15px;
+  right:30px;
+}
+
+
 form.comment{
   textarea{
     width: 100%;
@@ -84,3 +101,4 @@ form.comment{
     border-radius:5px;
   }
 }
+

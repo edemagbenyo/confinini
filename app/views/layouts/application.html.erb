@@ -8,23 +8,33 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
   <body class="app">
-    <%= render 'layouts/header'%>
-    <% flash.each do |type,message| %>
-      <div class="alert alert-<%= type %>">
-        <%= message %>
+    <% if (!current_user)%>
+      <div class="container-fluid">
+          <%= yield %>
       </div>
-    <% end %>
-    <div class="container">
-      <div class="row">
-        <div class="col-3">
+    <% else %>
+    
+    <%= render 'layouts/header'%>
+    <div class="container-fluid">
+      <div class="main-content">
+        <div class=" menu">
         <%= render  "layouts/about" if current_user %>
         </div>
-        <div class="col-6">
+        <div class="feed-other">
+        
+        <div class="feed-container">
+        <% flash.each do |type,message| %>
+          <div class="alert alert-<%= type %>">
+            <%= message %>
+          </div>
+        <% end %>
           <%= yield %>
         </div>
-        <div class="col-3"> 
-        <%= render  "layouts/suggestions"  if current_user %></div>
+        <div class="other"> 
+        <%= render  "layouts/suggestions"  if current_user %></div></div>
       </div>
     </div>
+    <% end %>
   </body>
 </html>
+<%# https://dribbble.com/shots/9383451-Facebook-Redesign/attachments/1411633?mode=media %>
