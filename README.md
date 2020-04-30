@@ -2,7 +2,7 @@
 
 > This is a Facebook-like application built using Ruby, Ruby on Rails and Bootstrap. The application allows for simple features such as posting, making friends, commenting on friends posts and liking of posts.
 
-![screenshot](./app_screenshot1.PNG)
+![screenshot](./screenshot.png)
 
 
 ## Live link
