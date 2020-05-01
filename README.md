@@ -1,4 +1,4 @@
-# Confinini is a social platform for people in confiment to make new friends. Create a profile, post pictures of yourself in confinement and make your lockdown a happy one.
+### Confinini is a social platform for people in confiment to make new friends. Create a profile, post pictures of yourself in confinement and make your lockdown a happy one.
 
 > This is a Facebook-like application built using Ruby, Ruby on Rails and Bootstrap. The application allows for simple features such as posting, making friends, commenting on friends posts and liking of posts.
 
