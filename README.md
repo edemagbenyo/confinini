@@ -10,8 +10,6 @@ This application is a Facebook-like application built using Ruby, Ruby on Rails 
 
 Live version is available [here](https://confinini.herokuapp.com/)
 
-To report a bug or request a feature use this [link](https://github.com/edemagbenyo/covid19-screening/issues)
-
 ![screenshot](./screenshot.png)
 
 
