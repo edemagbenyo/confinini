@@ -1,15 +1,19 @@
 ### Confinini 
 
-A social platform for people in confiment to make new friends. Create a profile, post pictures of yourself in confinement and make your lockdown a happy one.
+![GitHub repo size](https://img.shields.io/github/repo-size/edemagbenyo/confinini)
+![GitHub contributors](https://img.shields.io/github/contributors/edemagbenyo/confinini)
+![GitHub stars](https://img.shields.io/github/stars/edemagbenyo/confinini?style=social)
+![GitHub forks](https://img.shields.io/github/forks/edemagbenyo/confinini?style=social)
 
-> This is a Facebook-like application built using Ruby, Ruby on Rails and Bootstrap. The application allows for simple features such as posting, making friends, commenting on friends posts and liking of posts.
+A social platform for people in confiment to make new friends. Create a profile, post pictures of yourself in confinement and make your lockdown a happy one.
+This application is a Facebook-like application built using Ruby, Ruby on Rails and Bootstrap. The application allows for simple features such as posting, making friends, commenting on friends posts and liking of posts.
+
+Live version is available [here](https://confinini.herokuapp.com/)
+
+To report a bug or request a feature use this [link](https://github.com/edemagbenyo/covid19-screening/issues)
 
 ![screenshot](./screenshot.png)
 
-
-## Live link
-
-* https://confinini.herokuapp.com/
 
 ## Built With ✨
 
@@ -38,9 +42,8 @@ Clone project and run
 You should run
 `rspec spec`
 
-## How to contribute and partipate
+## How to contribute and participate.
 Fork this repo and submit a PR for review and potential merge to main branch
-
 
 
 ## Authors
