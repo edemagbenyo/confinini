@@ -63,4 +63,4 @@ Fork this repo and submit a PR for review and potential merge to main branch
 ## Known issues or improvement
 1. Improve design
 2. Allow users to post images, gifs and videos
-3. Send confirmation email to user upon registration
+3. Send confirmation email to a user upon registration
