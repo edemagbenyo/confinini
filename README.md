@@ -60,7 +60,7 @@ Fork this repo and submit a PR for review and potential merge to main branch
 - LinkedIn: [Christian Salazar](https://www.linkedin.com/in/christian-salazar-mi%C3%B1o/)
 
 
-## Known issues or improvement
+## Future features
 1. Improve design
 2. Allow users to post images, gifs and videos
 3. Send confirmation email to a user upon registration
