@@ -49,6 +49,7 @@ Fork this repo and submit a PR for review and potential merge to main branch
 👨‍💻 **Edem Agbenyo**
 
 - Github: [@edemagbenyo](https://github.com/edemagbenyo)
+- Portfolio: [edemagbenyo.com](https://edemagbenyo.com) 
 - Twitter: [Edem Agbenyo](https://twitter.com/edemAgbenyo)
 - LinkedIn: [Edem Agbenyo](https://www.linkedin.com/in/edemagbenyo/)
 - Email : [edem.agbenyo@gmail.com](mailto:edem.agbenyo@gmail.com)
