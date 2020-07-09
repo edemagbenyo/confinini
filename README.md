@@ -64,3 +64,7 @@ Fork this repo and submit a PR for review and potential merge to main branch
 1. Improve design
 2. Allow users to post images, gifs and videos
 3. Send confirmation email to a user upon registration
+
+## License
+<!--- If you're not sure which open license to use see https://choosealicense.com/--->
+This project uses the following license: [MIT](<link>).
